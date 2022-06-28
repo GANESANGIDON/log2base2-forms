@@ -6,9 +6,9 @@ export default function CountryCodeDropdown() {
   return (
     <div className="form-input-div">
       <select className="input-field">
-        <option value="+91" selected>(+91) India</option>
+        <option value="+91" selected>India (+91)</option>
         {CountryCodesData.map((data) => {
-          return <option key={data.code} value = {data.dial_code}>{`(${data.dial_code}) ${data.name}`}</option>;
+          return <option key={data.code} value = {data.dial_code}> {data.name} ({data.dial_code})</option>;
         })}
       </select>
     </div>
