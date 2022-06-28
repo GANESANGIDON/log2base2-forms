@@ -1,0 +1,41 @@
+.counselling-form-title {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.counselling-form-subtitle {
+  color: #686868;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.btns-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.form-btns-div-title {
+  color: #818181;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* --------------------------For small laptop devices-------------------------- */
+@media (min-width: 768px) {
+  .counselling-form-title {
+    font-size: 1.3rem;
+  }
+
+  .counselling-form-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+/* --------------------------For extra large devices-------------------------- */
+@media(min-width: 1200px){
+  .btns-wrapper{
+    gap: 15px;
+  }
+}

@@ -1,0 +1,37 @@
+.btn-choice-input{
+  display: none;
+}
+
+.btn-choice-input:checked + .btn-choice-lbl{
+  color: #fffdff;
+  background-color: #1C74FA;
+  border: 1px solid #1C74FA;
+}
+
+.btn-choice-lbl{
+  padding: 5px 11px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #5393f1;
+}
+
+.btn-choice-lbl:hover{
+  color: #fffdff;
+  background-color: #5393f1;
+  border: 1px solid #5393f1;
+}
+
+.btn-choice-lbl:active{
+  background-color: #1157be;
+  border: 1px solid #1157be;
+}
+
+/* --------------------------For 4k devices-------------------------- */
+@media(min-width: 1200px){
+  .btn-choice-lbl{
+    font-size: 0.85rem;
+    padding: 5px 15px;
+  }
+}
