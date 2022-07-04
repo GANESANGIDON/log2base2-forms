@@ -14,6 +14,16 @@ export default function CourseCounselling() {
       style={FormPageStyle}
     >
       <Row className="col-11 col-sm-10 col-md-8 col-lg-7 col-xl-6 col-xxl-4 mx-auto">
+        <h2
+          className="mb-3"
+          style={{
+            fontSize: "26px",
+            fontWeight: "700",
+            color: "darkslategrey",
+          }}
+        >
+          Talk to Our Experts
+        </h2>
         <CounsellingForm />
       </Row>
     </div>

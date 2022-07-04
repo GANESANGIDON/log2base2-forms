@@ -9,7 +9,7 @@
 }
 
 .btn-choice-lbl{
-  padding: 5px 11px;
+  padding: 5px 18px;
   font-size: 0.75rem;
   font-weight: 600;
   border-radius: 4px;
@@ -32,6 +32,6 @@
 @media(min-width: 1200px){
   .btn-choice-lbl{
     font-size: 0.85rem;
-    padding: 5px 15px;
+    padding: 6px 20px;
   }
 }

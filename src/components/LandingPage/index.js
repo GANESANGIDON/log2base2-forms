@@ -1,5 +1,10 @@
 import React from "react";
+import LandingPageText from "./LandingPageText";
 
 export default function LandingPage() {
-  return <div></div>;
+  return (
+    <div className="landing-page">
+      <LandingPageText />
+    </div>
+  );
 }
